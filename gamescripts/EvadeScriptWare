@@ -75,7 +75,7 @@ end)
 
 Gamesec:AddToggle('Fast Revive', false, function(State)
     if State then
-        workspace.Game.Settings:SetAttribute("ReviveTime", 2.2)
+        workspace.Game.Settings:SetAttribute("ReviveTime", 1.0)
     else
         workspace.Game.Settings:SetAttribute("ReviveTime", Settings.reviveTime)
     end
